@@ -61,7 +61,7 @@ img {
 
 /* HERO */
 .hero {
-  background: url('../Img/banner_bg\ 1.png') no-repeat center center/cover;
+  background: url("./Img/banner_bg\ 1.png") no-repeat center center/cover;
   height: 722px;
   display: flex;
   align-items: center;
@@ -188,7 +188,7 @@ img {
 
 /* PROMO EVENT SECTION */
 .promo-section {
-  background: url('../Img/beach.png') no-repeat center center/cover;
+  background: url("./Img/beach.png") center center / cover no-repeat;
   height: 839px;
   position: relative;
   margin-bottom: 3rem;
@@ -449,7 +449,7 @@ img {
 }
 /* about*/
 .about-hero {
-  background: url('../img/banner_bg 1.png') no-repeat center center/cover;
+  background: url("./Img/banner_bg 1.png") center center / cover no-repeat;
   height: 400px;
   display: flex;
   justify-content: center;
