@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo">
+          <a href="index.html">
+            <img class="logo"  src="img/logo.svg" alt="Travel Buddy Logo" />
+          </a>
+        </div>
+
+        <nav class="nav desktop-nav">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./package.html">Packages</a>
+          <a href="./places.html">Places</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+
+        <div class="header-right">
+          <a href="booking.html" class="btn-orange">Book Now</a>
+          <button class="burger" id="burger">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <nav class="mobile-nav" id="mobileNav">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./package.html">Packages</a>
+        <a href="./places.html">Places</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero about-hero">
+      <div class="hero-text">
+        <h1>Contact</h1>
+        <p>Critics and recomendation for us</p>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <img
+        src="img/Rectangle.png"
+        alt="Map showing our location"
+        class="map-img"
+      />
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-section container">
+      <div class="contact-left">
+        <h2>Get in touch</h2>
+        <form id="contactForm" class="contact-form">
+          <div id="formError" style="color: red; margin-bottom: 1rem"></div>
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Enter message"
+          ></textarea>
+          <div class="form-row">
+            <input type="text" id="name" placeholder="Enter your name" />
+            <input type="email" id="email" placeholder="Enter your email" />
+          </div>
+          <input type="text" id="subject" placeholder="Enter subject" />
+          <button type="submit" class="btn-orange">SEND MESSAGE</button>
+        </form>
+      </div>
+
+      <div class="contact-right">
+        <div class="info-group">
+          <strong>🏠 Semarang, Jawa Tengah</strong>
+          <p>Indonesia</p>
+        </div>
+        <div class="info-group">
+          <strong>📱 (024) 123981240</strong>
+          <p>Mon to Fri 9am to 6pm</p>
+        </div>
+        <div class="info-group">
+          <strong>✉️ TravelBuddy@gmail.com</strong>
+          <p>Send us your query anytime!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <!-- Logo -->
+        <div class="footer-logo">
+          <img src="./Img/Vector.png" alt="Travel Buddy Logo" />
+          <p>Travel Buddy</p>
+        </div>
+
+        <!-- Discover Destination -->
+        <div class="footer-column">
+          <h4>DISCOVER DESTINATION</h4>
+          <ul>
+            <li>Bali</li>
+            <li>Karimun Jawa</li>
+            <li>Jepara</li>
+            <li>Lombok</li>
+            <li>Yogyakarta</li>
+            <li>Flores</li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+          <h4>CONTACT US</h4>
+          <ul>
+            <li>24 Shipley St. Arvada, CO 80003</li>
+            <li>09378493810</li>
+            <li>TravelBuddy@gmail.com</li>
+          </ul>
+          <p class="social-title">Social Media</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
